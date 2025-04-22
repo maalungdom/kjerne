@@ -1,0 +1,17 @@
+# YAML-skjema for lemma (grunnord)
+type: "lemma"
+fields:
+  id: string   # Unik ID for lemma
+  ord: string  # Høgnorsk grunnform av ordet
+  bøyingar:    # Liste av bøyingsformer
+    - form: string
+      type: string  # t.d. "presens", "preteritum"
+  definisjonar:
+    - tekst: string  # Ordforklaring
+      kjelde: string # Kjeldenamn
+  fletting:           # Eventuelle variantar
+    - språk: string   # t.d. "bokmål" eller "nynorsk"
+      variant: string # Variant av grunnlemma
+  metadata:
+    oppretta_dato: datetime
+    endra_dato: datetime
