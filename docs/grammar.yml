@@ -1,0 +1,9 @@
+# grammar.yml – grammatikkreglar
+rule_id: string
+lemma_id: string
+description: string
+pattern: string
+metadata:
+  oppretta_dato: datetime
+  endra_dato: datetime
+

@@ -1,0 +1,8 @@
+# forms.yml – bøyingsformer
+lemma_id: string
+type: enum        # substantiv, verb, adjektiv…
+form: string
+metadata:
+  oppretta_dato: datetime
+  endra_dato: datetime
+

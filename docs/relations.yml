@@ -1,0 +1,8 @@
+# relations.yml – ordrelasjonar (synonym, antonym, osv.)
+from_lemma: string
+to_lemma: string
+type: enum        # synonym, antonym, osv.
+metadata:
+  oppretta_dato: datetime
+  endra_dato: datetime
+
